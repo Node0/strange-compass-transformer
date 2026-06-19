@@ -2,6 +2,8 @@
 
 ## Geometric Navigation in Semantic Embedding Space
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20758197.svg)](https://doi.org/10.5281/zenodo.20758197)
+
 Strange Compass Transformers (SCTs) explore a simple question with a surprisingly rich answer:
 
 **What if we treated meaning not as something to be sampled,  
@@ -211,11 +213,16 @@ the way Fourier transforms sit alongside differential equations.
 
 If you use or extend this work, please cite:
 
-**Hacobian, J. (2026).**  
-*Strange Compass Transformers: Geometric Navigation in Semantic Embedding Space (v1.10).*
-
-For the complete conceptual history and philosophical grounding,  
-see the subchapter **"Strange Compass Transformer"** in  
-*Walk With Me: A Human's Guide to Cognitive Ascent*.
+```bibtex
+@software{hacobian_2026_sct,
+  author    = {Hacobian, Joe},
+  title     = {Strange Compass Transformers: Geometric Navigation in Semantic Embedding Space},
+  year      = {2026},
+  version   = {v1.10},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20758197},
+  url       = {https://doi.org/10.5281/zenodo.20758197}
+}
+```
 
 This repository provides the reference implementation, training scripts, design notes, and evaluation tools for the version described in the SCT v1.10 paper.
